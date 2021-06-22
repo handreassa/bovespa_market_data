@@ -14,7 +14,7 @@ soup = bs(ret.text)
 data = soup.find('span', {'id': 'x-data-pregao'})
 
 #%%
-caminho_chrome_driver = r"C:\Users\handr\Downloads\chromedriver_win32_v90\chromedriver.exe"
+caminho_chrome_driver = r"chromedriver.exe"
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 options.add_argument('--incognito')
